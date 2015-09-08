@@ -12319,7 +12319,7 @@
           "documentation":"<p>[EC2-Classic, default VPC] One or more security group names. For a nondefault VPC, you must use security group IDs instead.</p> <p>Default: Amazon EC2 uses the default security group.</p>",
           "locationName":"SecurityGroup"
         },
-        "SecurityGroupIds":{
+        "SecurityGroupId":{
           "shape":"SecurityGroupIdStringList",
           "documentation":"<p>One or more security group IDs. You can create a security group using <a>CreateSecurityGroup</a>.</p> <p>Default: Amazon EC2 uses the default security group.</p>",
           "locationName":"SecurityGroupId"
